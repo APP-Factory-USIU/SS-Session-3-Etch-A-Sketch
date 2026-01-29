@@ -32,9 +32,9 @@ canvasContainer.append(fragment);
 
 We are using a **"Click-and-Drag"** state machine. The app listens for three distinct mouse states:
 
-* **`mousedown`**: The user starts the stroke. We "hook" the movement listener.
-* **`mousemove`**: The user moves the mouse. (Current: Logging to console; Future: Coloring cells).
-* **`mouseup`**: The user lets go. We "unhook" the listeners to stop drawing.
+* **`mousedown`**: The user starts the stroke.
+* **`mousemove`**: The user moves the mouse. 
+* **`mouseup`**: The user lets go.
 
 ---
 
