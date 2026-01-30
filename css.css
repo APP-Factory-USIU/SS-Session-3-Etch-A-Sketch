@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .etch-container {
@@ -23,8 +24,20 @@ body {
 
 .canvas-container {
   display: grid;
+  position: relative;
 }
 
 .settings {
   background-color: #c6c6c6;
+}
+
+#eraser {
+  position: absolute;
+  pointer-events: none;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50%;
 }
